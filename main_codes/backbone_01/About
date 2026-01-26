@@ -1,0 +1,15 @@
+Features :
+1. Webpage hosting by ESP
+2. Establishing a private network.
+3. Syncing data from mobile to the ESP with a SINGLE TAP.
+4. Display of Homepage containing Time, day, date, and tasks received from mobile.
+
+When the "Update" button is pressed on the webpage, the ESP watch face changes to "Updating..!!" for 3 seconds and in this time,
+all the data is updated and ready to be displayed.
+Then the updated data is displayed and the time is updated by the internal RTC code block.
+
+Drawback - After every power disconnection, everything is lost. Reconnection and updating is required.
+
+Which means if your watch runs out of charge, you need to update after recharging it.
+
+Battery icon is also displayed and will be synced with the battery_monitoring system once Seed Studio XIAO ESP32 C3 is obtained.
